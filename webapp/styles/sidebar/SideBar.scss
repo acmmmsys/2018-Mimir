@@ -1,0 +1,36 @@
+@import '../colors';
+@import "~compass-mixins/lib/compass";
+
+.ui-sidebar {
+  position: absolute;
+  right: 82%;
+  left: 0;
+  padding: 22px;
+}
+
+.ui-sidebar-header {
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: $defaultHeaderColor;
+}
+
+.ui-sidebar-section {
+  font-weight: 600;
+}
+
+.ui-sidebar-section-header {
+  padding-top: 30px;
+  color: $defaultHeaderColor;
+}
+
+.ui-sidebar-menu {
+  list-style: none;
+  padding: 0px;
+}
+
+.ui-sidebar-menu-item {
+  position: relative;
+  padding: 10px 0px;
+}
+
